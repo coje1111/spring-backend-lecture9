@@ -1,0 +1,8 @@
+package org.example.Head06_SpringOverview.example02;
+
+public class MenuServiceStub implements MenuService {
+    @Override
+    public List<String> getMenuList() {
+        return List.of("샘플커피1", "샘플커피2");
+    }
+}
