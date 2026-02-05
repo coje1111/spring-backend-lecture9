@@ -1,5 +1,7 @@
 package org.example.Head06_SpringOverview.example02;
 
+import java.util.List;
+
 public class MenuServiceImpl implements MenuService {
     @Override
     public List<String> getMenuList() {
